@@ -1,0 +1,4 @@
+w = int(input('몸무게를 말하시오 : '))
+h = float(input('키를 말하시오(m 기준) : '))
+bmi= w/(h*h)
+print("당신의 체질량 지수는 약", bmi,"입니다")
